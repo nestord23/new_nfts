@@ -1,0 +1,15 @@
+{
+    "name": "Mi NFT de prueba",
+    "description": "Este es un NFT creado con una imagen personalizada.",
+    "image": "https://github.com/jhonyperezcastillo/new-nft/blob/main/tecnologia.jpeg?raw=true",
+    "attributes": [
+      {
+        "trait_type": "Categoría",
+        "value": "Tecnología"
+      },
+      {
+        "trait_type": "Edición",
+        "value": "1"
+      }
+    ]
+  }

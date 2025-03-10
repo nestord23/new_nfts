@@ -46,7 +46,7 @@ const transaction = await createNft(umi, {
   mint: collectionMint,
   name: "My Collection",
   symbol: "MC",
-  uri: "https://raw.githubusercontent.com/nestord23/images/main/nft_metadata.json",
+  uri: "https://raw.githubusercontent.com/nestord23/new_nfts/refs/heads/main/nft_metadata.json",
   sellerFeeBasisPoints: percentAmount(0),
   isCollection: true,
 });

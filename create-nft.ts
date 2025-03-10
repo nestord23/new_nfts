@@ -48,7 +48,7 @@ console.log("Set up Umi instance for user");
 
 // Dirección de la colección a la que se agregarán los NFTs
 const collectionAddress = publicKey(
-  "Cc4e9UybbnFuQmwvfhj8tHzYFdCywAmyRegBQYTUV9Jx"
+  "5f24TwSEAnWdkF4mcthLfFdytq8m9koNM7oKDbxvrSg2"
 );
 
 console.log(`Creating first NFT...`);
@@ -60,7 +60,7 @@ const mint1 = generateSigner(umi);
 const transaction1 = await createNft(umi, {
   mint: mint1,
   name: "NFT 1", // Nombre del primer NFT
-  uri: "https://raw.githubusercontent.com/nestord23/new_nfts/refs/heads/main/nft1.json", // Metadatos del primer NFT
+  uri: "https://raw.githubusercontent.com/nestord23/new_nfts/main/nft1.json", // Metadatos del primer NFT
   sellerFeeBasisPoints: percentAmount(0), // Regalías de 0%
   collection: {
     key: collectionAddress, // Asociación con la colección
@@ -91,7 +91,7 @@ const mint2 = generateSigner(umi);
 const transaction2 = await createNft(umi, {
   mint: mint2,
   name: "NFT 2", // Nombre del segundo NFT
-  uri: "https://raw.githubusercontent.com/nestord23/new_nfts/refs/heads/main/nfts2.json", // Metadatos del segundo NFT
+  uri: "https://raw.githubusercontent.com/nestord23/new_nfts/main/nfts2.json", // Metadatos del segundo NFT
   sellerFeeBasisPoints: percentAmount(0), // Regalías de 0%
   collection: {
     key: collectionAddress, // Asociación con la misma colección

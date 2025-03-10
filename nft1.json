@@ -1,0 +1,37 @@
+{
+    "name": "NFT 1",
+    "symbol": "NFT1",
+    "description": "First NFT in the collection.",
+    "image": "https://raw.githubusercontent.com/nestord23/images/main/nft3.png",
+    "external_url": "https://github.com/nestord23",
+    "seller_fee_basis_points": 500,
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Accessory",
+            "value": "Hat"
+        }
+    ],
+    "collection": {
+        "name": "My Collection JP",
+        "family": "My Collection JP",
+        "address": "9xPCSJxPMR5jYTwnwMaRqb2crX42ECsCAgvejxPQ4GDJ"
+    },
+    "properties": {
+        "files": [
+            {
+                "uri": "https://raw.githubusercontent.com/jhonyperezcastillo/new-nft/main/images/nft1.png",
+                "type": "image/png"
+            }
+        ],
+        "creators": [
+            {
+                "address": "9xPCSJxPMR5jYTwnwMaRqb2crX42ECsCAgvejxPQ4GDJ",
+                "share": 100
+            }
+        ]
+    }
+}

@@ -2,7 +2,7 @@
     "name": "NFT 1",
     "symbol": "NFT1",
     "description": "First NFT in the collection.",
-    "image": "https://raw.githubusercontent.com/nestord23/images/main/nft3.png",
+    "image": "https://raw.githubusercontent.com/nestord23/new_nfts/main/imagenes/nft2.png",
     "external_url": "https://github.com/nestord23",
     "seller_fee_basis_points": 500,
     "attributes": [
@@ -23,7 +23,7 @@
     "properties": {
         "files": [
             {
-                "uri": "https://raw.githubusercontent.com/nestord23/images/main/nft3.png",
+                "uri": "https://raw.githubusercontent.com/nestord23/new_nfts/main/imagenes/nft2.png",
                 "type": "image/png"
             }
         ],
